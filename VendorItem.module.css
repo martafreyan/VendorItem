@@ -1,0 +1,35 @@
+.vendor-item-header-data {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+/* END Search Styles */
+
+.vendor-item-button:hover {
+  background-color: var(--ground_color);
+}
+
+/* Vendor Item Sales tab styles */
+
+.vendor-sales-table-header {
+  display: grid;
+  grid-template-columns: 120px 160px repeat(6, 130px);
+  font-size: 13px;
+  font-weight: 600;
+  background-color: var(--axis-background);
+  border-top: 1px solid var(--primary-color);
+  border-left: 1px solid var(--primary-color);
+  margin-right: 13px;
+}
+
+.vendor-map-current-header {
+  display: grid;
+  grid-template-columns: 200px 120px repeat(3, 160px);
+  font-size: 13px;
+  font-weight: 600;
+  background-color: var(--axis-background);
+  border-top: 1px solid var(--primary-color);
+  border-left: 1px solid var(--primary-color);
+  margin-right: 13px;
+}
